@@ -1,0 +1,1 @@
+print("Неверный ввод" if not (num:=input()).isdigit() or int(num) <= 0 else f"{bin(int(num))[2:]}, {oct(int(num))[2:]}, {hex(int(num))[2:]}")
